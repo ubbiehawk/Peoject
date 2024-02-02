@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADFFF2"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_round"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/type_in_keyword"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" /><![CDATA[
+
+
+
+
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="62dp"
+        android:layout_height="48dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="64dp"
+        android:onClick="decrease"
+        app:layout_constraintBottom_toTopOf="@+id/edit_t"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints,SpeakableTextPresentCheck,UnknownId" />
+
+    <EditText
+        android:id="@+id/edit_t"
+        android:layout_width="412dp"
+        android:layout_height="501dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/bg_round"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/enter_text_here"
+        android:inputType="textMultiLine"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill" />
+
+    <ImageButton
+        android:id="@+id/bt_highlight"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:backgroundTint="@color/black"
+        android:onClick="buttonItalics"
+        android:text="italics"
+        app:layout_constraintBottom_toTopOf="@+id/edit_t"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:onClick="buttonUnderline"
+        android:text="@string/underline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="62dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="64dp"
+        android:onClick="increase"
+        app:layout_constraintBottom_toTopOf="@+id/edit_t"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="84dp"
+        android:onClick="colorChange"
+        android:text="Color"
+        app:layout_constraintBottom_toTopOf="@+id/edit_t"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="buttonBold"
+        android:text="Bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

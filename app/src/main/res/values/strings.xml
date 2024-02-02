@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project App</string>
+    <string name="text_here">Text here</string>
+    <string name="bold">Bold</string>
+    <string name="text">Enter Text and click search</string>
+    <string name="enter_text_here">Enter text Here</string>
+    <string name="type_in_keyword">Type in keyword</string>
+    <string name="underline">underline</string>
+</resources>
